@@ -1,0 +1,557 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout _PL.cshtml";
+}
+
+
+<div class="container" style="margin-top:150px;">
+    <div class="row">
+        <div class="col-sm-12 col-md-2 col-lg-2" style="border:1px solid #fff;">
+            <div class="fotoConteiner" style="height:150px;">
+                <img src="~/Content/images/barda1.png" onclick="myFunction(this);" style="width:76px;height:64px;" />
+                <img src="~/Content/images/barda2.png" onclick="myFunction(this);" style="width:86px;height:64px;" />
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4" style="height:400px">
+            <div class="fotoConteiner1" style="width:300px;">
+                <img src="~/Content/images/barda1.png" id="expandedImg" style="width:350px;height:258px;" />
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="productDescription">
+                <span class="pD1">Dried Distillers Grain with Solubles DDGS</span>
+                <button class="pDbuy" id="myBtn">Zamówić</button>
+                <span class="pD2">Dostawa towarów do drzwi</span>
+                <span class="pD3">Masz jakieś pytania? prosimy o kontakt!</span>
+                <span class="pD4">+38(067)503-96-99</span>
+                <span class="pD5">+38(067)350-13-82</span>
+
+                <div class="horizontalLine"></div>
+
+                <span class="pD6">Przeznaczony do</span>
+                <span class="pD7">Stosuje się  w dietach wszystkich gatunków zwierząt (świnie, bydło), drobiu i ryb, ma wiele mikro komponentów  oraz nie zawiera żadnych substancji szkodliwych dla zdrowia.</span>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top:100px;">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="productDescription">
+                <span class="pD8">Skład</span>
+                <span class="pD9">
+                    Ten produkt zawiera:
+                    <ul>
+                        <li>lekkostrawne białko / proteinę (zawartość białka 32% -35%).</li>
+                        <li>bogaty skład aminokwasów (tryptofan, lizyna, metionina, cystyna, treonina).</li>
+                        <li>wysoka zawartość witamin (kwas nikotynowy i kwas foliowy, biotyna i cholina oraz  D2 prowitaminy - ergosterol), makro i mikroelementów, fosforu, węglowodanów.</li>
+                    </ul>
+                </span>
+                <span class="pD9">
+                    Dzięki zawartości białka, aminokwasów, makro i mikroelementów, które odgrywają ważną 
+                    rolę w metabolizmie i procesach wzrostu zwierząt, DDGS  wyprzedza większość  produktów paszowych.
+                    Produkt umożliwia obniżenie kosztów paszy i uzyskanie oszczędności podczas tuczu.
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tableBarda">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="table-responsive">
+                    <table class="TableData">
+                        <thead>
+                            <tr style="background:#c0c0c0;font-weight:600;color:black">
+                                <th>Wskaźniki</th>
+                                <th>Wyniki analizy</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Wygląd </td>
+                                <td>Produkt suchy, sypki</td>
+                            </tr>
+                            <tr>
+                                <td>Kolor</td>
+                                <td>Żółty</td>
+                            </tr>
+                            <tr>
+                                <td>Zapach</td>
+                                <td>Pieczywa i drożdży, charakterystyczny dla surowców zbożowych</td>
+                            </tr>
+                            <tr>
+                                <td>Wilgotność, %</td>
+                                <td>10,90</td>
+                            </tr>
+                            <tr>
+                                <td> Zawartość białka surowego (w absolutnie suchej masie), %</td>
+                                <td>34,2</td>
+                            </tr>
+                            <tr>
+                                <td>Masa frakcji popiołu, (w absolutnie suchej masie), %</td>
+                                <td>2,8</td>
+                            </tr>
+                            <tr>
+                                <td>Masa frakcji tłuszczu surowego (w absolutnie suchej masie), %</td>
+                                <td>6,4</td>
+                            </tr>
+                            <tr>
+                                <td> Masa frakcji surowego włókna (w absolutnie suchej masie), %</td>
+                                <td>9,85</td>
+                            </tr>
+                            <tr>
+                                <td>Domieszki  metalowo-magnetyczne: cząstki do 2 mm na 1 kg śróty, mg, powyżej</td>
+                                <td>2,5</td>
+                            </tr>
+                            <tr>
+                                <td>Toksyczność	</td>
+                                <td>Nie toksyczny</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4>Zawartość węglowodanów</h4>
+                    <table class="TableData">
+                        <thead>
+                            <tr style="background:#c0c0c0;font-weight:600;color:black">
+                                <th>Nazwa próbki</th>
+                                <th>Skrobia, %</th>
+                                <th>Cukier, %</th>
+                                <th>Gemiceluloza, %</th>
+                                <th>Celuloza, %</th>
+                                <th>Lignin, %</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Wywar gorzelniczy zbożowy suszony (DDGS)</td>
+                                <td>2,86</td>
+                                <td>4,06</td>
+                                <td>4,97</td>
+                                <td>6,60</td>
+                                <td>2,77</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4>Zawartość biogennych makro- i mikroelementów</h4>
+                    <table class="TableData">
+                        <thead>
+                            <tr style="background:#c0c0c0;font-weight:600;color:black">
+                                <th>Nazwa próbki</th>
+                                <th>Wapń, g/kg</th>
+                                <th>Fosfor g/kg	</th>
+                                <th>Magnez  g/kg</th>
+                                <th>Żelazo, mg/kg</th>
+                                <th>Cynk, mg/kg</th>
+                                <th>Mangan, mg/kg</th>
+                                <th>Мiedź, mg/kg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Wywar gorzelniczy zbożowy suszony (DDGS)</td>
+                                <td>0,60</td>
+                                <td>3,3</td>
+                                <td>0,29</td>
+                                <td>1003,06</td>
+                                <td>33,04</td>
+                                <td>18,91</td>
+                                <td>14,70</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4> Skład porównywalny DDGS  i zboża</h4>
+                    <table class="TableData">
+                        <thead>
+                            <tr style="font-weight:600;color:black">
+                                <th>Wskaźniki</th>
+                                <th>DDGS</th>
+                                <th>Pszenica</th>
+                                <th>Żyto</th>
+                                <th>Kukurydza</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Wymiana energii, kcal</td>
+                                <td>2690</td>
+                                <td>2950</td>
+                                <td>2820</td>
+                                <td>3300</td>
+                            </tr>
+                            <tr>
+                                <td> Jednostki paszowe</td>
+                                <td>0,8-1,0</td>
+                                <td>1,2</td>
+                                <td>1,12</td>
+                                <td>1,31</td>
+                            </tr>
+                            <tr>
+                                <td>Proteina, %</td>
+                                <td>28-32</td>
+                                <td>11</td>
+                                <td>11</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>Tłzszcze,%</td>
+                                <td>6-8</td>
+                                <td>1,7</td>
+                                <td>1,7</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>Popiół, %</td>
+                                <td>4-8,5</td>
+                                <td>1,6</td>
+                                <td>1,7</td>
+                                <td>1,3</td>
+                            </tr>
+                            <tr>
+                                <td>Celuloza, %</td>
+                                <td>9,2</td>
+                                <td>2,7</td>
+                                <td>2,4</td>
+                                <td>2,2</td>
+                            </tr>
+                            <tr>
+                                <td>Lizyna, %</td>
+                                <td>0,8-0,9</td>
+                                <td>0,34</td>
+                                <td>0,4</td>
+                                <td>0,26</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4>Skład aminokwasowy proteiny</h4>
+                    <table class="TableData">
+                        <thead>
+                            <tr style="font-weight:600;color:black">
+                                <th rowspan="2">Aminokwas</th>
+                                <th colspan="2">DDGS</th>
+                            </tr>
+                            <tr>
+                                <th>% w suchej masie</th>
+                                <th>% w proteinie</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lizyna</td>
+                                <td>0,85</td>
+                                <td>2,75</td>
+                            </tr>
+                            <tr>
+                                <td>Leucyna</td>
+                                <td>6,53</td>
+                                <td>21,28</td> 
+                            </tr>
+                            <tr>
+                                <td>Walina</td>
+                                <td>2,03</td>
+                                <td>6,61</td>
+                            </tr>
+                            <tr>                                                                            
+                                <td> Treonina + seryna</td>
+                                <td>2,95</td>
+                                <td>9,54</td>
+                            </tr>
+                            <tr>
+                                <td>Fenyloalanina</td>
+                                <td>2,88</td>
+                                <td>9,32</td>
+                            <tr>
+                                <td>Izoleucyna</td>
+                                <td>1,17</td>
+                                <td>3,78</td>
+                            <tr>
+                                <td>Glicyna</td>
+                                <td>1,32</td>
+                                <td>4,27</td>
+                            <tr>
+                                <td>Tyrozyna</td>
+                                <td>2,42</td>
+                                <td>7,83</td>
+                            </tr>
+                            <tr>
+                                <td>Metionina</td>
+                                <td>0,65</td>
+                                <td>2,10</td>
+                            <tr>
+                                <td>Аlanian</td>
+                                <td>2,57</td>
+                                <td>8,31</td>
+                            </tr>
+                            <tr>
+                                <td>Kwas asparaginowy</td>
+                                <td>3,12</td>
+                                <td>10,09</td>
+                            </tr>
+                            <tr>
+                                <td>Kwas glutaminowy</td>
+                                <td>6,45</td>
+                                <td>20,88</td>
+                            </tr>
+                            <tr>
+                                <td>Proteina</td>
+                                <td>28-32</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4>Wartość odżywcza 1 kg DDGS</h4>
+                    <table class="TableData">
+                        <thead>
+                            <tr style="background:#c0c0c0;font-weight:600;color:black">
+                                <th rowspan="2">Rodzaj</th>
+                                <th colspan="3">Naturalny</th>
+                                <th colspan="3">Absolutnie suchy </th>
+                            </tr>
+                            <tr>
+                                <th>Jednostki paszy</th>
+                                <th>Strawione białko,g</th>
+                                <th>JЕ, MJ</th>
+                                <th>Jednostki paszy</th>
+                                <th>Strawione białko,g</th>
+                                <th>JЕ, MJ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bydło</td>
+                                <td>0,88</td>
+                                <td>204</td>
+                                <td>9,91</td>
+                                <td>0,98</td>
+                                <td>227</td>
+                                <td>11,04</td>
+                            </tr>
+                            <tr>
+                                <td>Świnie </td>
+                                <td>0,64</td>
+                                <td>202</td>
+                                <td>8,44</td>
+                                <td>0,71</td>
+                                <td>224</td>
+                                <td>9,36</td>
+                            </tr>
+                            <tr>
+                                <td>Drób</td>
+                                <td>0,69</td>
+                                <td>144</td>
+                                <td>8,83</td>
+                                <td>0,76</td>
+                                <td>159</td>
+                                <td>9,79</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4>Zalecane zasady podawania DDGS  w paszy dla bydła w % masy suchej paszy</h4>
+                    <table class="TableData">
+                        <tbody>
+                            <tr>
+                                <td>Krowy dojne</td>
+                                <td>ponad 30%/td>
+                            </tr>
+                            <tr>
+                                <td>Młode zwierzęta do 6 miesięcy</td>
+                                <td>do 20%</td>
+                            </tr>
+                            <tr>
+                                <td>Młode zwierzęta ponad  6 miesięcy</td>
+                                <td>do 25%</td>
+                            </tr>
+                            <tr>
+                                <td>Wysokowydajne  krowy dojne</td>
+                                <td>do 40%</td>
+                            </tr>
+                            <tr>
+                                <td>Bydło na tuczu</td>
+                                <td>do 35%</td>
+                            </tr>
+                            <tr>
+                                <td>Okres suchy  i krowy w ostatniej trzeciej ciąży</td>
+                                <td>do 30%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4>Zalecane zasady podawania DDGS <strong> w paszy dla świni</strong> w % masy suchej paszy</h4>
+                    <table class="TableData">
+                        <tbody>
+                            <tr>
+                                <td>Remontowe świnie</td>
+                                <td>do 25%</td>
+                            </tr>
+                            <tr>
+                                <td>Świnie na tuczu  </td>
+                                <td>do 20%</td>
+                            </tr>
+                            <tr>
+                                <td>Maciory prośne i nieprośne</td>
+                                <td>do 40%</td>
+                            </tr>
+                            <tr>
+                                <td>Maciory karmiące</td>
+                                <td>do 20%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4> Zalecane zasady podawania DDGS <strong>w paszy dla  drobiu</strong> w % masy suchej paszy</h4>
+                    <table class="TableData">
+                        <tbody>
+                            <tr>
+                                <td>  Indyk  do  120 dni</td>
+                                <td>dо 4%</td>
+                            </tr>
+                            <tr>
+                                <td>Indyk</td>
+                                <td>dо 8%</td>
+                            </tr>
+                            <tr>
+                                <td>Brojlery do 60 dni</td>
+                                <td>dо 4%</td>
+                            </tr>
+                            <tr>
+                                <td>Remontowe kurczaki</td>
+                                <td>dо 5%</td>
+                            </tr>
+                            <tr>
+                                <td>Kury nieśne</td>
+                                <td>dо 6%</td>
+                            </tr>
+                            <tr>
+                                <td>Kury ras mięsnych</td>
+                                <td>dо 8%</td>
+                            </tr>
+                            <tr>
+                                <td>Kury młode</td>
+                                <td>dо 5%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="product">
+    <div class="container">
+        <div class="row" style="margin-top:50px;">
+            <div class="col-sm-6 col-md-6">
+                <h2>Zobacz także:</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <div class="thumbnail">
+                    <img src="~/Content/images/fr2.png" style="width:150px;height:auto;" alt="...">
+                    <div class="caption" style="text-align:center;">
+                        <h3 style="text-align:center;">Środek antyseptyczny <br />«Frecont»</h3>
+                        <button onclick="window.location.href = '/PL/Fricont'" class="btnPrd">Przeczytaj więcej</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="services">
+    <div class="container">
+        <div class="row">
+            <span class="servicesSpan">Usługi</span>
+        </div>
+        <!--1-->
+        <div class="row" style="margin-top:32px;">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/PL/AlcoholIndustry'" class="servicesPiture1">
+                    <div class="bottom-left">Przemysł alkoholowy</div>
+                </div>
+            </div>
+            <div onclick="window.location.href = '/PL/StarchyPatchIndustry'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture2">
+                    <div class="bottom-left">Produkcja skrobi i maltodekstryny. </div>
+                </div>
+            </div>
+
+            <div onclick="window.location.href = '/PL/WaterTreatment'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture3">
+                    <div class="bottom-left">Oczyszczanie wody i ścieków przemysłowych</div>
+                </div>
+            </div>
+            <div onclick="window.location.href = '/PL/Membrane'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture4">
+                    <div class="bottom-left">Technologie baromembranowe</div>
+                </div>
+            </div>
+        </div>
+        <!--2-->
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/PL/Аutomation'" class="servicesPiture5">
+                    <div class="bottom-left">Automatyzacja</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/PL/Soft'" class="servicesPiture6">
+                    <div class="bottom-left">Oprogramowanie</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/PL/ERP'" class="servicesPiture7">
+                    <div class="bottom-left">Systemy ERP</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;margin-bottom:135px;">
+                <div onclick="window.location.href = '/PL/Project'" class="servicesPiture8">
+                    <div class="bottom-left">Projektowanie</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Dane do kontaktu</h2>
+        <form action="/PL/email_send" method="post">
+            <div class="form-group">
+                <label for="name">Imię</label>
+                <input type="text" name="nameClient" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Kontakty</label>
+                <input type="text" name="emailClient" class="form-control" id="email" placeholder="telefon lub e-mail">
+            </div>
+
+            <div class="textARR">
+                <label>Krótka wiadomość</label>
+                <textarea name="messageClient" placeholder="Krótko opisz, o czym chcesz porozmawiać" style="height:126px"></textarea>
+            </div>
+            <button class="blueBTNaa">Wyślij</button>
+        </form>
+    </div>
+</div>
+<script>
+    function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        expandImg.src = imgs.src;
+        expandImg.parentElement.style.display = "block";
+    }
+    var modal = document.getElementById('myModal');
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function () {
+        modal.style.display = "block";
+        modal.style.position = "fixed";
+    }
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+
+
+
+

@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется в процессе публикации или упаковки вашего веб-проекта. Вы можете настроить поведение процесса,
+изменив этот файл MSBuild. Дополнительные сведения см. по адресу http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\GOOGLE\organika_engineering</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/12/2018 18:16:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ISOrganika.dll">
+      <publishTime>10/02/2018 17:09:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ru/EntityFramework.resources.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ru/System.Net.Http.Formatting.resources.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Http.WebHost.resources.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Mvc.resources.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Optimization.resources.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Providers.resources.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Razor.resources.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.WebPages.resources.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Abstractions.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.DLL">
+      <publishTime>02/12/2018 18:16:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Routing.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>02/12/2018 18:16:18</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.2.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.2.min.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.24.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.24.min.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.2.0.debug.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.2.0.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/EN/AboutUS.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/AboutUS1_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/AlcoholIndustry.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/AlcoholIndustry_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/Barda.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/Barda1_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/Contact.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/Contact1_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/email_send.cshtml">
+      <publishTime>09/04/2018 19:36:59</publishTime>
+    </File>
+    <File Include="Views/EN/email_send1_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/ERP.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/ERP_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/Fricont.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/Fricont1_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/Home.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/HS1_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/Membrane.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/Membrane_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/Project.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/Project_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/Soft.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/Soft_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/StarchyPatchIndustry.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/StarchyPatchIndustry_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/WaterTreatment.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/WaterTreatment_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/EN/Аutomation.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/EN/Аutomation_EN.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/Home/AboutUS.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/Home/Barda.cshtml">
+      <publishTime>10/01/2018 18:02:09</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>08/17/2018 11:33:48</publishTime>
+    </File>
+    <File Include="Views/Home/email_send.cshtml">
+      <publishTime>08/20/2018 15:55:59</publishTime>
+    </File>
+    <File Include="Views/Home/Fricont.cshtml">
+      <publishTime>10/01/2018 18:02:09</publishTime>
+    </File>
+    <File Include="Views/Home/Home.cshtml">
+      <publishTime>10/01/2018 18:02:09</publishTime>
+    </File>
+    <File Include="Views/Home/HS.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Home/Index3.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Home/Service.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Home/start.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Home/Test.cshtml">
+      <publishTime>09/26/2018 19:03:05</publishTime>
+    </File>
+    <File Include="Views/PL/AboutUS.cshtml">
+      <publishTime>09/20/2018 18:09:10</publishTime>
+    </File>
+    <File Include="Views/PL/AboutUS1_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/AlcoholIndustry.cshtml">
+      <publishTime>09/20/2018 18:09:10</publishTime>
+    </File>
+    <File Include="Views/PL/AlcoholIndustry_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/Barda.cshtml">
+      <publishTime>09/25/2018 18:19:11</publishTime>
+    </File>
+    <File Include="Views/PL/Barda1_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/Contact.cshtml">
+      <publishTime>09/20/2018 18:09:10</publishTime>
+    </File>
+    <File Include="Views/PL/Contact1_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/email_send.cshtml">
+      <publishTime>09/04/2018 19:36:59</publishTime>
+    </File>
+    <File Include="Views/PL/email_send1_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/ERP.cshtml">
+      <publishTime>09/04/2018 19:36:59</publishTime>
+    </File>
+    <File Include="Views/PL/ERP_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/Fricont.cshtml">
+      <publishTime>09/25/2018 18:19:11</publishTime>
+    </File>
+    <File Include="Views/PL/Fricont1_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/Home.cshtml">
+      <publishTime>09/20/2018 18:09:10</publishTime>
+    </File>
+    <File Include="Views/PL/HS1_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/Membrane.cshtml">
+      <publishTime>09/20/2018 18:09:10</publishTime>
+    </File>
+    <File Include="Views/PL/Membrane_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/Project.cshtml">
+      <publishTime>09/20/2018 18:09:10</publishTime>
+    </File>
+    <File Include="Views/PL/Project_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/Soft.cshtml">
+      <publishTime>09/07/2018 14:34:00</publishTime>
+    </File>
+    <File Include="Views/PL/Soft_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/StarchyPatchIndustry.cshtml">
+      <publishTime>09/20/2018 18:09:10</publishTime>
+    </File>
+    <File Include="Views/PL/StarchyPatchIndustry_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/WaterTreatment.cshtml">
+      <publishTime>09/20/2018 18:09:10</publishTime>
+    </File>
+    <File Include="Views/PL/WaterTreatment_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/PL/Аutomation.cshtml">
+      <publishTime>09/20/2018 18:09:10</publishTime>
+    </File>
+    <File Include="Views/PL/Аutomation_PL.cshtml">
+      <publishTime>08/31/2018 16:04:49</publishTime>
+    </File>
+    <File Include="Views/RO/AboutUS.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/AlcoholIndustry.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/Barda.cshtml">
+      <publishTime>10/01/2018 18:02:09</publishTime>
+    </File>
+    <File Include="Views/RO/Contact.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/email_send.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/ERP.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/Fricont.cshtml">
+      <publishTime>10/01/2018 18:02:09</publishTime>
+    </File>
+    <File Include="Views/RO/Home.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/Membrane.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/Project.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/Soft.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/StarchyPatchIndustry.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/WaterTreatment.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RO/Аutomation.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RU/AboutUS.cshtml">
+      <publishTime>09/06/2018 17:22:27</publishTime>
+    </File>
+    <File Include="Views/RU/AlcoholIndustry.cshtml">
+      <publishTime>09/06/2018 17:22:27</publishTime>
+    </File>
+    <File Include="Views/RU/Barda.cshtml">
+      <publishTime>09/07/2018 14:34:00</publishTime>
+    </File>
+    <File Include="Views/RU/Contact.cshtml">
+      <publishTime>09/04/2018 19:36:59</publishTime>
+    </File>
+    <File Include="Views/RU/email_send.cshtml">
+      <publishTime>09/04/2018 19:36:59</publishTime>
+    </File>
+    <File Include="Views/RU/ERP.cshtml">
+      <publishTime>09/04/2018 19:36:59</publishTime>
+    </File>
+    <File Include="Views/RU/Fricont.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/RU/Home.cshtml">
+      <publishTime>09/07/2018 14:34:00</publishTime>
+    </File>
+    <File Include="Views/RU/Membrane.cshtml">
+      <publishTime>09/04/2018 19:36:59</publishTime>
+    </File>
+    <File Include="Views/RU/Project.cshtml">
+      <publishTime>09/06/2018 17:22:27</publishTime>
+    </File>
+    <File Include="Views/RU/Soft.cshtml">
+      <publishTime>09/07/2018 14:34:00</publishTime>
+    </File>
+    <File Include="Views/RU/StarchyPatchIndustry.cshtml">
+      <publishTime>09/04/2018 19:36:59</publishTime>
+    </File>
+    <File Include="Views/RU/WaterTreatment.cshtml">
+      <publishTime>09/04/2018 19:36:59</publishTime>
+    </File>
+    <File Include="Views/RU/Аutomation.cshtml">
+      <publishTime>09/04/2018 19:36:59</publishTime>
+    </File>
+    <File Include="Views/Services/AlcoholEquipment.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Services/AlcoholIndustry.cshtml">
+      <publishTime>10/01/2018 18:02:09</publishTime>
+    </File>
+    <File Include="Views/Services/ERP.cshtml">
+      <publishTime>08/08/2018 15:43:00</publishTime>
+    </File>
+    <File Include="Views/Services/EthanolProduction.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Services/GrainProcessing.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Services/Membrane.cshtml">
+      <publishTime>09/07/2018 14:34:00</publishTime>
+    </File>
+    <File Include="Views/Services/MembraneEquipment.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Services/Project.cshtml">
+      <publishTime>09/07/2018 14:34:00</publishTime>
+    </File>
+    <File Include="Views/Services/Soft.cshtml">
+      <publishTime>09/07/2018 14:34:01</publishTime>
+    </File>
+    <File Include="Views/Services/StarchProducts.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Services/StarchyPatchEquipment.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Services/StarchyPatchIndustry.cshtml">
+      <publishTime>09/07/2018 14:34:01</publishTime>
+    </File>
+    <File Include="Views/Services/Water.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Services/WaterTreatment.cshtml">
+      <publishTime>09/07/2018 14:34:01</publishTime>
+    </File>
+    <File Include="Views/Services/WaterTreatmentEquipment.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Services/Аutomation.cshtml">
+      <publishTime>09/07/2018 14:34:01</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Shared/ForPrint.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout _EN.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout _PL.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout _RO.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout _RU.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/17/2018 08:41:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout_UA.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/SystemMessage/AccessDenied.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/SystemMessage/SystemError.cshtml">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/UA/AboutUS.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/AlcoholIndustry.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/Barda.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/Contact.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/email_send.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/ERP.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/Fricont.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/Home.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/Membrane.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/Project.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/Soft.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/StarchyPatchIndustry.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/WaterTreatment.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/UA/Аutomation.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>02/12/2018 18:16:17</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>10/02/2018 17:07:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/29/2018 17:28:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

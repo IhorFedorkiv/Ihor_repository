@@ -1,0 +1,175 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout _RU.cshtml";
+}
+
+
+<div id="upTop" class="generalImage">
+    <div class="container">
+        <div class="centered">
+            <h2>Органика инжиниринг </h2>
+            <span>
+                Органика инжиниринг - компания которая занимается строительством <br />
+                и модернизацией промышленных предприятий,<br />
+                по переработке сельскохозяйственной продукции.
+            </span>
+            <button onclick="window.location.href = '/RU/AboutUS/'" class="about">Подробнее о компании</button>
+        </div>
+    </div>
+</div>
+<div id="service" class="services">
+    <div class="container">
+        <div class="row">
+            <span class="servicesSpan">Услуги</span>
+        </div>
+        <!--1-->
+        <div class="row" style="margin-top:32px;">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/RU/AlcoholIndustry'" class="servicesPiture1">
+                    <div class="bottom-left">Спиртовая промышленность</div>
+                </div>
+            </div>
+            <div onclick="window.location.href = '/RU/StarchyPatchIndustry'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture2">
+                    <div class="bottom-left">Крахмало-паточная промышленность</div>
+                </div>
+            </div>
+
+            <div onclick="window.location.href = '/RU/WaterTreatment'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture3">
+                    <div class="bottom-left">  Очистка воды и промышленных стоков   </div>
+                </div>
+            </div>
+            <div onclick="window.location.href = '/RU/Membrane'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture4">
+                    <div class="bottom-left">Баро-мембранные технологии</div>
+                </div>
+            </div>
+        </div>
+        <!--2-->
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/RU/Аutomation'" class="servicesPiture5">
+                    <div class="bottom-left">Автоматизация</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/RU/Soft'" class="servicesPiture6">
+                    <div class="bottom-left">Програмное обеспечение</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/RU/ERP'" class="servicesPiture7">
+                    <div class="bottom-left">ERP-системы</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;margin-bottom:135px;">
+                <div onclick="window.location.href = '/RU/Project'" class="servicesPiture8">
+                    <div class="bottom-left">Проектирование</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="productid" class="product">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h2>Продукция</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <div class="thumbnail">
+                    <img src="~/Content/images/fr2.png" style="width:150px;height:auto;" alt="...">
+                    <div class="caption" style="text-align:center;">
+                        <h3 style="text-align:center;">Антисептическое средство<br />«Фриконт»</h3>
+                        <button onclick="window.location.href = '/RU/Fricont'" class="btnPrd">Больше </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="thumbnail">
+                    <img src="~/Content/images/barda1.png" style="width:250px;height:auto">
+                    <div class="caption" style="text-align:center;margin-top:-20px;">
+                        <h3 style="text-align:center;">Барда сухая спиртовая <br /> DDGS</h3>
+                        <button onclick="window.location.href = '/RU/Barda'" class="btnPrd">Больше</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h2>КОНТАКТЫ</h2>
+                <div class="num1">
+                    <img src="~/Content/images/PhoneIcon.png">
+                    <span>Звоните нам!</span>
+                </div>
+                <div class="num2">
+                    <span>+38(067)503-96-99</span>
+                    <span>+38(067)350-13-82</span>
+                </div>
+                <div class="num3">
+                    <img src="~/Content/images/group.png" />
+                    <span>Наш адрес</span>
+                </div>
+                <div class="num4">
+                    <span>Украина</span>
+                    <span>м.Чортков</span>
+                </div>
+                <div id="map" style="height:400px;width:100%;margin-bottom:50px;"></div>
+            </div>
+            <!--2 colum-->
+            <div class="col-sm-6 col-md-6">
+                <h2>Форма обратной связи</h2>
+                <form action="/RU/email_send" method="post">
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" name="nameClient" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Контакты</label>
+                        <input type="text" name="emailClient" class="form-control" id="email" placeholder="phone or e-mail">
+                    </div>
+                    <div class="textARR">
+                        <label>Короткое сообщение</label>
+                        <textarea name="messageClient" placeholder="Кратко напишите о чем вы хотите поговорить"></textarea>
+                    </div>
+                    <button class="blueBTN">Відправити</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function initMap() {
+        var element = document.getElementById('map');
+        var options = {
+            zoom: 5,
+            center: { lat: 49.010884, lng: 25.802651 }
+        };
+        var myMap = new google.maps.Map(element, options);
+        var marker = new google.maps.Marker({
+            position: { lat: 49.010884, lng: 25.802651 },
+            map: myMap
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHISVS5myIlbPXHXuMQEjJTi_SBqkSdG8&callback=initMap"></script>
+<script>
+    $(document).ready(function () {
+        var navheight = $('.navbar').height();
+        $('a[href*=\\#]').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top - navheight
+            }, 500);
+        });
+    });
+</script>
+
+

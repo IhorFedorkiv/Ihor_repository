@@ -1,0 +1,176 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout _EN.cshtml";
+}
+
+
+<div id="upTop" class="generalImage">
+    <div class="container">
+        <div class="centered">
+            <h2>Organika Engineering</h2>
+            <span>
+                 Organika Engineering is a company that provides construction<br />
+                 and modernization of industrial enterprises,<br />
+                 and sale of agricultural products
+            </span>
+            <button onclick="window.location.href = '/EN/AboutUS/'" class="about">More about the company</button>
+        </div>
+    </div>
+</div>
+<div id="service" class="services">
+    <div class="container">
+        <div class="row">
+            <span class="servicesSpan">Services</span>
+        </div>
+        <!--1-->
+        <div class="row" style="margin-top:32px;">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/EN/AlcoholIndustry'" class="servicesPiture1">
+                    <div class="bottom-left">Distillery</div>
+                </div>
+            </div>
+            <div onclick="window.location.href = '/EN/StarchyPatchIndustry'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture2">
+                    <div class="bottom-left">Starch-Molasses industry</div>
+                </div>
+            </div>
+
+            <div onclick="window.location.href = '/EN/WaterTreatment'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture3">
+                    <div class="bottom-left">Water and effluent treatment</div>
+                </div>
+            </div>
+            <div onclick="window.location.href = '/EN/Membrane'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture4">
+                    <div class="bottom-left">Baromembrane technology</div>
+                </div>
+            </div>
+        </div>
+        <!--2-->
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/EN/Аutomation'" class="servicesPiture5">
+                    <div class="bottom-left">Mechanization</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/EN/Soft'" class="servicesPiture6">
+                    <div class="bottom-left">Software</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/EN/ERP'" class="servicesPiture7">
+                    <div class="bottom-left">ERP systems</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;margin-bottom:135px;">
+                <div onclick="window.location.href = '/EN/Project'" class="servicesPiture8">
+                    <div class="bottom-left">Engineering</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="productid" class="product">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h2>Products</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <div class="thumbnail">
+                    <img src="~/Content/images/fr2.png" style="width:150px;height:auto;" alt="...">
+                    <div class="caption" style="text-align:center;">
+                        <h3 style="text-align:center;">Antiseptic agent <br />«Frikont»</h3>
+                        <button onclick="window.location.href = '/EN/Fricont'" class="btnPrd">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="thumbnail">
+                    <img src="~/Content/images/barda1.png" style="width:250px;height:auto">
+                    <div class="caption" style="text-align:center;margin-top:-20px;">
+                        <h3 style="text-align:center;">Dried Distillers Grain with Solubles<br /> DDGS</h3>
+                        <button onclick="window.location.href = '/EN/Barda'" class="btnPrd">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h2>CONTACTS</h2>
+                <div class="num1">
+                    <img src="~/Content/images/PhoneIcon.png">
+                    <span> Call us!</span>
+                </div>
+                <div class="num2">
+                    <span>+38(067)503-96-99</span>
+                    <span>+38(067)350-13-82</span>
+                </div>
+                <div class="num3">
+                    <img src="~/Content/images/group.png" />
+                    <span> Our address:</span>
+                </div>
+                <div class="num4">
+                    <span>Ukraine</span>
+                    <span>Chortkiv town</span>
+                </div>
+                <div id="map" style="height:400px;width:100%;margin-bottom:50px;"></div>
+            </div>
+            <!--2 colum-->
+            <div class="col-sm-6 col-md-6">
+                <h2>CONTACT FORM</h2>
+                <form action="/EN/email_send" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="nameClient" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Contacts</label>
+                        <input type="text" name="emailClient" class="form-control" id="email" placeholder="phone or e-mail">
+                    </div>
+                    <div class="textARR">
+                        <label> Short message</label>
+                        <textarea name="messageClient" placeholder="Short summary of your question/inquiry"></textarea>
+                    </div>
+                    <button class="blueBTN">Send</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function initMap() {
+        var element = document.getElementById('map');
+        var options = {
+            zoom: 5,
+            center: { lat: 49.010884, lng: 25.802651 }
+        };
+        var myMap = new google.maps.Map(element, options);
+        var marker = new google.maps.Marker({
+            position: { lat: 49.010884, lng: 25.802651 },
+            map: myMap
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHISVS5myIlbPXHXuMQEjJTi_SBqkSdG8&callback=initMap"></script>
+<script>
+    $(document).ready(function () {
+        var navheight = $('.navbar').height();
+        $('a[href*=\\#]').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top - navheight
+            }, 500);
+        });
+    });
+</script>
+
+

@@ -1,0 +1,142 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout _EN.cshtml";
+}
+
+<div class="container">
+    <div class="row" style="margin-top:120px;">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="productDescription">
+                <span class="pD8">ABOUT US</span>
+                <span class="pD9">
+                    ORGANIKA – ENGINEERING Group is established on the base of productive and engineering departments of LLC “ORGANIKA”,
+                    involving leading experts in processing and food industry who specialize in execution of technological 
+                    projects in the area of reconstruction, modernization and construction of modern industrial facilities:
+                    <ul>
+                        <li>grain processing and grits production;</li>
+                        <li>distillery, distillate production, bioethanol, DDGS production;</li>
+                        <li>starch and molasses industries;</li>
+                    </ul>
+                </span>
+                <span class="pD10">
+                     The Group has the experience in concentration of liquids and effluent treatment
+                     in diverse fields of technological processing based on baromembrane filtration process.
+                     We design and provide facilities of maintenance and operation with automatic
+                     systems and highly intelligent software. We also implement electronic data business management systems.  
+
+                </span>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <img src="~/Content/images/organika of.png" style="width:100%;height:auto" alt="...">
+        </div>
+    </div>
+</div>
+<div class="abUSfoto">
+    <div class="container">
+        <div class="row">
+        </div>
+        <!--1-->
+        <div class="row" style="margin-top:32px;">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto1">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto2">
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto3">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto4">
+                </div>
+            </div>
+        </div>
+        <!--2-->
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto5">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto6">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto7">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;margin-bottom:3px;">
+                <div class="abUSfoto8">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact" style="margin-top:100px">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h2>CONTACTS</h2>
+                <div class="num1">
+                    <img src="~/Content/images/PhoneIcon.png">
+                    <span> Call us!</span>
+                </div>
+                <div class="num2">
+                    <span>+38(067)503-96-99</span>
+                    <span>+38(067)350-13-82</span>
+                </div>
+                <div class="num3">
+                    <img src="~/Content/images/group.png" />
+                    <span> Our address:</span>
+                </div>
+                <div class="num4">
+                    <span>Ukraine</span>
+                    <span>Chortkiv town</span>
+                </div>
+                <div id="map" style="height:400px;width:100%;margin-bottom:50px;"></div>
+            </div>
+            <!--2 colum-->
+            <div class="col-sm-6 col-md-6">
+                <h2>CONTACT FORM</h2>
+                <form action="/EN/email_send" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="nameClient" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Contacts</label>
+                        <input type="text" name="emailClient" class="form-control" id="email" placeholder="phone or e-mail">
+                    </div>
+                    <div class="textARR">
+                        <label> Short message</label>
+                        <textarea name="messageClient" placeholder="Short summary of your question/inquiry"></textarea>
+                    </div>
+                    <button class="blueBTN">Send</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function initMap() {
+        var element = document.getElementById('map');
+        var options = {
+            zoom: 5,
+            center: { lat: 49.010884, lng: 25.802651 }
+        };
+        var myMap = new google.maps.Map(element, options);
+        var marker = new google.maps.Marker({
+            position: { lat: 49.010884, lng: 25.802651 },
+            map: myMap
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHISVS5myIlbPXHXuMQEjJTi_SBqkSdG8&callback=initMap"></script>
+
+

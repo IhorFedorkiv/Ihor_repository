@@ -1,0 +1,142 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout _PL.cshtml";
+}
+
+<div class="container">
+    <div class="row" style="margin-top:120px;">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="productDescription">
+                <span class="pD8">O nas</span>
+                <span class="pD9">
+                    ORGANIKA - Engineering Group   organizowana została na podstawie oddziału produkcyjnego i projektowego Organics Ltd., z udziałem czołowych ekspertów
+                    przemysłu rolno-spożywczego, specjalizuje się w projektach technologicznych w zakresie przebudowy, modernizacji i budowie nowoczesnych obiektów przemysłu:
+                    <ul>
+                        <li>zbożowego;</li>
+                        <li>alkoholowego, produkcji  destylatu, bioetanolu, produkcji DDGS;</li>
+                        <li>produkcji skrobi,  maltodekstryny.</li>
+                    </ul>
+                </span>
+                <span class="pD10">
+                    Grupa posiada doświadczenie w zakresie koncentracji płynów i oczyszczania ścieków w różnych dziedzinach
+                     przetwarzania technologicznego na podstawie filtrowania procesów baromembranowych.
+                    Projektuje i zapewnia urządzenia do konserwacji i obsługi zautomatyzowanych systemów,
+                     wysoce inteligentnych produktów oprogramowania.
+                </span>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <img src="~/Content/images/organika of.png" style="width:100%;height:auto" alt="...">
+        </div>
+    </div>
+</div>
+<div class="abUSfoto">
+    <div class="container">
+        <div class="row">
+        </div>
+        <!--1-->
+        <div class="row" style="margin-top:32px;">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto1">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto2">
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto3">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto4">
+                </div>
+            </div>
+        </div>
+        <!--2-->
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto5">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto6">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="abUSfoto7">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;margin-bottom:3px;">
+                <div class="abUSfoto8">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact" style="margin-top:100px">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h2>KONTAKT</h2>
+
+                <div class="num1">
+                    <img src="~/Content/images/PhoneIcon.png">
+                    <span>Zadzwoń do nas!</span>
+                </div>
+                <div class="num2">
+                    <span>+38(067)503-96-99</span>
+                    <span>+38(067)350-13-82</span>
+                </div>
+                <div class="num3">
+                    <img src="~/Content/images/group.png" />
+                    <span>Nasz adres</span>
+                </div>
+                <div class="num4">
+                    <span>Ukraina</span>
+                    <span>m. Czortków</span>
+                </div>
+                <div id="map" style="height:400px;width:100%;margin-bottom:50px;"></div>
+
+            </div>
+            <!--2 colum-->
+            <div class="col-sm-6 col-md-6">
+                <h2>Dane do kontaktu</h2>
+                <form action="/PL/email_send" method="post">
+                    <div class="form-group">
+                        <label for="name">Imię</label>
+                        <input type="text" name="nameClient" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Kontakty</label>
+                        <input type="text" name="emailClient" class="form-control" id="email" placeholder="telefon lub e-mail">
+                    </div>
+                    <div class="textARR">
+                        <label>Krótka wiadomość</label>
+                        <textarea name="messageClient" placeholder="Krótko opisz, o czym chcesz porozmawiać"></textarea>
+                    </div>
+                    <button class="blueBTN">Wyślij</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function initMap() {
+        var element = document.getElementById('map');
+        var options = {
+            zoom: 5,
+            center: { lat: 49.010884, lng: 25.802651 }
+        };
+        var myMap = new google.maps.Map(element, options);
+        var marker = new google.maps.Marker({
+            position: { lat: 49.010884, lng: 25.802651 },
+            map: myMap
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHISVS5myIlbPXHXuMQEjJTi_SBqkSdG8&callback=initMap"></script>
+
+

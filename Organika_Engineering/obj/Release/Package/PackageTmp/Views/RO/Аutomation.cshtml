@@ -1,0 +1,139 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout _RO.cshtml";
+}
+<div class="container" style="margin-top:100px;">
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="TextAboutServices">
+                <h2>Automatizare</h2>
+                <p>
+                    Compania de inginerie "Organika - Engineering" dispune de specialiști responsabili și cu
+                    înaltă calificare, care se ocupă cu dezvoltarea și implementarea de soluții complexe în
+                    domeniul automatizării proceselor tehnologice, automatizării și dispetrizării obiectelor
+                    de infrastructură și proiectării și adaptării sistemelor integrate de management al întreprinderii.
+                    <ul>
+                        <li>Auditul primar al obiectului de automatizare;</li>
+                        <li>Modernizarea proceselor de producție și a sistemelor automatizate de control tehnologic;</li>
+                        <li>Alegerea echipamentului;</li>
+                        <li>Elaborarea documentației de proiect;</li>
+                        <li>Instalarea de echipamente și software;</li>
+                        <li>Pregătirea echipamentului  și pregătirea personalului;</li>
+                        <li>Ajutor 24/7.</li>
+                    </ul>
+                </p>
+                <p>
+                    Soluțiile noastre complexe sunt utilizate cu succes în industiile de  alcool,
+                    bioetanol și alte industirii de  prelucrare. În termeni cât mai scurți, fără
+                    intermediari, compania "Organika - Engineering" poate realiza un set de software
+                    și hardware conceput pentru a automatiza gestionarea echipamentelor tehnologice la
+                    întreprinderi care să vă satisfacă pe deplin așteptările.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4" style="padding:0;">
+            <div class="boxForBuy" style="margin-top:20px;">
+                <button id="myBtn" class="buttonForboxBuy">A cumpara</button>
+                <div class="contactForboxBuy">
+                    <div class="num11">
+                        <img src="~/Content/images/PhoneIcon.png">
+                        <span>Câteva întrebări?</span><br />
+                    </div>
+                    <span class="num12">Contactați!</span>
+                    <div class="num2">
+                        <span>+38(067)503-96-99</span>
+                        <span>+38(067)350-13-82</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-grey" style="margin-top:80px;"></div>
+<div id="service" class="services">
+    <div class="container">
+        <div class="row">
+            <span class="servicesSpan">Alte servicii</span>
+        </div>
+        <!--1-->
+        <div class="row" style="margin-top:32px;">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/RO/AlcoholIndustry'" class="servicesPiture1">
+                    <div class="bottom-left">Industria de alcool</div>
+                </div>
+            </div>
+            <div onclick="window.location.href = '/RO/StarchyPatchIndustry'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture2">
+                    <div class="bottom-left">Industria de amidon și sirop</div>
+                </div>
+            </div>
+
+            <div onclick="window.location.href = '/RO/WaterTreatment'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture3">
+                    <div class="bottom-left">Purificarea apei  și a apelor reziduale industriale</div>
+                </div>
+            </div>
+            <div onclick="window.location.href = '/RO/Membrane'" class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div class="servicesPiture4">
+                    <div class="bottom-left">Tehnologii baro-membrane</div>
+                </div>
+            </div>
+        </div>
+        <!--2-->
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/RO/Soft'" class="servicesPiture6">
+                    <div class="bottom-left">Software</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;">
+                <div onclick="window.location.href = '/RO/ERP'" class="servicesPiture7">
+                    <div class="bottom-left">Sistemele ERP</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3" style="padding:0;margin-bottom:135px;">
+                <div onclick="window.location.href = '/RO/Project'" class="servicesPiture8">
+                    <div class="bottom-left">Proiectare</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>FEEDBACK</h2>
+        <form action="/RO/email_send" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="nameClient" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Contacts</label>
+                <input type="text" name="emailClient" class="form-control" id="email" placeholder="phone or e-mail">
+            </div>
+            <div class="textARR">
+                <label>Short message</label>
+                <textarea name="messageClient" placeholder="Short summary of your question/inquiry" style="height:126px"></textarea>
+            </div>
+            <button class="blueBTNaa">Send</button>
+        </form>
+    </div>
+</div>
+<script>
+    var modal = document.getElementById('myModal');
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+

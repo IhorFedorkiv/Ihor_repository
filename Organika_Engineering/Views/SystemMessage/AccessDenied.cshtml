@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Відсутні права на перегляд!";
+}
+<script type="text/javascript">
+    document.getElementById('headertittle').innerHTML = '@ViewBag.Title';
+    document.title = '@ViewBag.Title';
+  </script>
+<div id="Mainblock">
+<div style="font: normal 1.2em 'Arial Narrow' , 'Franklin Gothic Medium' , Arial; color: #FF0000; font-weight: bold;">
+    @ViewBag.Title
+</div>
+    </div>
+ <div id="errorform">
+        <img  src="~/Content/images/access_denied.png" />
+    </div>
